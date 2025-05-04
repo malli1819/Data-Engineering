@@ -31,5 +31,7 @@ insert_business_table = """INSERT INTO yelp.business VALUES ('{}', '{}', '{}', '
                         longitude = EXCLUDED.longitude,
                         price = EXCLUDED.price,
                         location = EXCLUDED.location,
-                        phone = EXCLUDED.phone;
+                        phone = EXCLUDED.phone,
+                        email = EXCLUDED.email,
+                        address = EXCLUDED.address;
                         """
