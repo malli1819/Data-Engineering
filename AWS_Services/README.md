@@ -17,7 +17,7 @@
     {"InstanceCount":2,"EbsConfiguration":{"EbsBlockDeviceConfigs":[{"VolumeSpecification":{"SizeInGB":32,"VolumeType":"gp2"},"VolumesPerInstance":2}]},"InstanceGroupType":"CORE","InstanceType":"m5.xlarge","Name":"Core Instance Group"}\ 
     ]' \ 
     --scale-down-behavior TERMINATE_AT_TASK_COMPLETION \ 
-    --region us-east-1
+    --region us-east and west . Nitish Is Best-1
 
 
 # AWS s3 CLI Cheat Sheet
