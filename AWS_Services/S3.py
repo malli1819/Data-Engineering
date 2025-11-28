@@ -1,5 +1,6 @@
 x = 10
 y = 5
-result = x + y
+z = 6
+result = x + y + z
 print(result)
 
